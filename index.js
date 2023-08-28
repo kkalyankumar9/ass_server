@@ -3,7 +3,7 @@ const fs = require("fs");
 const { connection } = require("./db");
 const { userRoutes } = require("./routes/userRoutes");
 const { auth } = require("./middleware/auth");
-
+const { UserModel } = require("./models/usermodel");
 const app = express();
 const cors = require('cors');
 
